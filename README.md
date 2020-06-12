@@ -1,2 +1,2 @@
 # amberstudios.github.io
-Website for AmberStudios
+Website for Amber Studios
