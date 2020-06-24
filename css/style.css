@@ -42,3 +42,85 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
+
+.main {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#arrow {
+	fill: url(#mainGradient);
+	stroke: url(#mainGradient);
+	stroke-width: 0.15px;
+	opacity: 0;
+	animation: fadeIn 1s ease-out;
+	animation-delay: 2s;
+  	animation-fill-mode: forwards;
+}
+
+#feather {
+	fill: url(#mainGradient);
+	opacity: 0;
+	animation: fadeIn 1s ease-out;
+	animation-delay: 1.5s;
+  	animation-fill-mode: forwards;
+}
+
+#ring1 {
+	fill:#0c0b25;	
+	opacity: 0;
+	z-index:-20;
+	transform: rotate(-90deg);
+	transform-origin: 53% 53%;
+	animation: ringRotate 0.7s ease-in-out;
+	animation-delay: 3.5s;
+	animation-fill-mode: forwards;
+}
+
+	
+#ring2 {
+	fill:#0c0b25;	
+	opacity: 0;
+	z-index:-20;
+	transform: rotate(90deg);
+	transform-origin: 53% 53%;
+	animation: ringRotate 0.7s ease-in-out;
+	animation-delay: 3.5s;
+	animation-fill-mode: forwards;
+}
+
+
+#square {
+	fill:#0c0b25;
+	opacity: 0;
+	animation: fadeIn 1s ease-out;
+	animation-delay: 1s;
+  	animation-fill-mode: forwards;
+}	
+
+@keyframes fadeIn {
+     30% {
+      opacity: 0;
+    }
+	100% {
+      opacity: 1;
+    }
+}
+	
+
+@keyframes ringRotate {
+	20% {
+		opacity: 1;
+	}
+    100% {		
+		opacity: 1;
+		transform: rotate(0deg);
+    }
+}
+
+
+
