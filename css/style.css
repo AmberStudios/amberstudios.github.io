@@ -21,6 +21,12 @@ body {
 		box-shadow: 0 2px #FFBA31;
 }
 
+#header svg {
+                position: fixed;
+                top: 0;
+                right: 0;
+                height: 12%;
+
 #logo{ 
     float: left; 
     padding: none; 
