@@ -8,9 +8,23 @@ body {
 	font-size: 35px;
 }
 
+.heading {
+		background-size: 30%;
+		background-color: #0C0B25;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url('https://cdn.discordapp.com/attachments/720820630236299337/724995450154778724/Amber_Site_Header.png');
+		width: 100%;
+		height: 10%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		box-shadow: 0 2px #FFBA31;
+}
+
 @media only screen and (max-device-width: 480px) {
 	.heading {
-		background-size: 50%;
+		background-size: 70%;
 		background-color: #0C0B25;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -24,21 +38,6 @@ body {
 	}
 }
 
-@media only screen and (max-device-width: 2000px) {
-	.heading {
-		background-size: 25%;
-		background-color: #0C0B25;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-image: url('https://cdn.discordapp.com/attachments/720820630236299337/724995450154778724/Amber_Site_Header.png');
-		width: 100%;
-		height: 10%;
-		position: fixed;
-		left: 0;
-		top: 0;
-		box-shadow: 0 2px #FFBA31;
-	}
-}
 
 .seasons {
     font-family: 'Metal Mania';
@@ -66,8 +65,10 @@ body {
 .main {
   text-align: center;
   width: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #arrow {
