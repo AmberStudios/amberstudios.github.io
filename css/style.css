@@ -9,7 +9,7 @@ body {
 }
 
 .heading {
-		background-size: 30%;
+		background-size: 25%;
 		background-color: #0C0B25;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -20,6 +20,10 @@ body {
 		left: 0;
 		top: 0;
 		box-shadow: 0 2px #FFBA31;
+}
+
+h1 {
+	 margin-top: 10%;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -36,8 +40,11 @@ body {
 		top: 0;
 		box-shadow: 0 2px #FFBA31;
 	}
-}
 
+	h1 {
+		margin-top: 25%;
+	}
+}
 
 .seasons {
     font-family: 'Metal Mania';
