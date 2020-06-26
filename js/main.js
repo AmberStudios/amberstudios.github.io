@@ -1,6 +1,5 @@
 /* - set up - */
 var sz = screen.height*0.07;
-var closedOrOpenImm = 0;
 var closedOrOpen = 0;
 document.getElementById("dd").setAttribute("width", sz); 
 document.getElementById("dd").setAttribute("height", sz); 
@@ -26,18 +25,7 @@ document.getElementById('l3').setAttribute('y2', d);
 
 /* - toggle open/closed - */
 function switchDropDown() {
-closedOrOpenImm = 1 - closedOrOpenImm;
+closedOrOpen= 1 - closedOrOpen;
 console.log(closedOrOpen);
 drawDropDown();
 };
-
-/* - smooth transition - */
-function smooth() {
-if (closedOrOpen > closedOrOpenImm) {
-closedOrOpen += -0.1;
-};
-if (closedOrOpen < closedOrOpenImm) {
-closedOrOpen +=0.1;
-};
-};
-setInterval(function{smooth()}, 50);
