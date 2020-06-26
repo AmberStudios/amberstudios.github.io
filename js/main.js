@@ -17,3 +17,4 @@ document.getElementById('l2').setAttribute('x1', b);
 document.getElementById('l2').setAttribute('x2', c);
 document.getElementById('l3').setAttribute('y2', d);
 };
+drawDropDown();
