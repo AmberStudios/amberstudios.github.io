@@ -23,11 +23,36 @@ body {
 
 #dd {
     position: fixed;
+	width: 105px;
+	height: 105px;
     right: 0;
     top: 0;
     z-index: 2;
-    transition-duration: 1s;
 }
+
+#l1, #l2, #l3 {
+  stroke: #FFFFFF;
+  stroke-width: 5px;
+  height: 100px;
+  width: 100px;
+  transition: all 1s ease-in-out;
+}
+
+#l1.open {
+	transform-origin: 50% 35%;
+	transform: translate(0%, 15%) rotate(45deg) scale(0.8);
+}
+
+#l2.open {
+	transform-origin: 50% 50%;
+	transform: translate(-100%, 0%) scale(0.8);
+}
+
+#l3.open {
+	transform-origin: 50% 65%;
+	transform: translate(0%, -15%) rotate(-45deg) scale(0.8);
+}
+
 
 #logo{ 
     float: left; 
