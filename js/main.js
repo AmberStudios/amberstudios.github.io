@@ -33,12 +33,11 @@ drawDropDown();
 
 /* - smooth transition - */
 function smooth() {
-
 while (closedOrOpen > closedOrOpenImm) {
-closedOrOpen = closedOrOpen - 0.1;
+closedOrOpen += -0.1;
 }
 while (closedOrOpen < closedOrOpenImm) {
-closedOrOpen = closedOrOpen + 0.1;
+closedOrOpen +=0.1;
 }
 };
 setInterval(smooth(), 0.1s);
