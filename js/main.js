@@ -33,10 +33,10 @@ drawDropDown();
 
 /* - smooth transition - */
 function smooth() {
-while (closedOrOpen > closedOrOpenImm) {
+if (closedOrOpen > closedOrOpenImm) {
 closedOrOpen += -0.1;
 };
-while (closedOrOpen < closedOrOpenImm) {
+if (closedOrOpen < closedOrOpenImm) {
 closedOrOpen +=0.1;
 };
 };
