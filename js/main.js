@@ -8,10 +8,10 @@ document.getElementById("headerLogo").style.height = sz * 0.7;
 
 /* - dropdown button function - */
 function drawDropDown() {
-var a = 35 + 30*closedOrOpen + "%";
-var b = 35 + 15*closedOrOpen + "%";
-var c = 65 - 15*closedOrOpen + "%";
-var d = 65 - 30*closedOrOpen + "%";
+var a = 35 + (30*closedOrOpen) + "%";
+var b = 35 + (15*closedOrOpen) + "%";
+var c = 65 - (15*closedOrOpen) + "%";
+var d = 65 - (30*closedOrOpen) + "%";
 console.log(closedOrOpen);
 console.log(a);
 console.log(b);
