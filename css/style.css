@@ -22,10 +22,7 @@ body {
 }
 
 #dd {
-                position: fixed;
-                top: 0;
-                right: 0;
-                height: 12%;
+    float: right;
 }
 
 #logo{ 
