@@ -40,4 +40,4 @@ if (closedOrOpen < closedOrOpenImm) {
 closedOrOpen +=0.1;
 };
 };
-setInterval(smooth(), 50);
+setInterval(function{smooth()}, 50);
