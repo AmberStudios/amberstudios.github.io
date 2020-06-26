@@ -27,5 +27,6 @@ drawDropDown();
 /* - toggle open/closed - */
 function switchDropDown() {
 closedOrOpen = 1 - closedOrOpen;
+console.log(closedOrOpen);
 drawDropDown();
 };
