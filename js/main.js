@@ -1,31 +1,16 @@
-/* - set up - */
-var sz = screen.height*0.07;
 var closedOrOpen = 0;
-document.getElementById("dd").setAttribute("width", sz); 
-document.getElementById("dd").setAttribute("height", sz); 
-document.getElementById("headerLogo").style.height = sz * 0.7;
-console.log(sz);
 
-/* - dropdown button function - */
-function drawDropDown() {
-var a = 35 + (30*closedOrOpen) + "%";
-var b = 35 + (15*closedOrOpen) + "%";
-var c = 65 - (15*closedOrOpen) + "%";
-var d = 65 - (30*closedOrOpen) + "%";
-console.log(closedOrOpen);
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
-document.getElementById('l1').setAttribute('y2', a);
-document.getElementById('l2').setAttribute('x1', b);
-document.getElementById('l2').setAttribute('x2', c);
-document.getElementById('l3').setAttribute('y2', d);
-};
-
-/* - toggle open/closed - */
 function switchDropDown() {
-closedOrOpen= 1 - closedOrOpen;
-console.log(closedOrOpen);
-drawDropDown();
+closedOrOpen = 1 - closedOrOpen;
+if (closedOrOpen == 1) {
+	document.getElementById('l1').setAttribute('class','open');
+	document.getElementById('l2').setAttribute('class', 'open');
+	document.getElementById('l3').setAttribute('class', 'open');
+}
+if (closedOrOpen == 0) {
+	document.getElementById('l1').removeAttribute("class");
+	document.getElementById('l2').removeAttribute("class");
+	document.getElementById('l3').removeAttribute("class");
+}
+
 };
