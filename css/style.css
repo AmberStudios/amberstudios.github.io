@@ -25,9 +25,13 @@ body {
     position: fixed;
 	width: 105px;
 	height: 105px;
-    right: 0;
-    top: 0;
-    z-index: 2;
+   	right: 0;
+   	top: 0;
+   	z-index: 2;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 #l1, #l2, #l3 {
