@@ -22,52 +22,46 @@ body {
 }
 
 #dd {
-    position: fixed;
 	width: 105px;
 	height: 105px;
    	right: 0;
-   	top: 0;
-   	z-index: 2;
 	margin: 0;
   	position: absolute;
   	top: 50%;
-  	transform: translate(-50%, -50%);
+  	transform: translate(0%, -50%);
 }
-
 #l1, #l2, #l3 {
-  stroke: #FFFFFF;
+  stroke: white;
   stroke-width: 5px;
-  height: 100px;
-  width: 100px;
   transition: all 0.7s ease-in-out;
 }
 
 #l1.open {
 	transform-origin: 50% 35%;
-	transform: translate(0%, 15%) rotate(45deg) scale(1);
+	transform: translate(0%, 15%) rotate(45deg);
 }
 
 #l2.open {
 	transform-origin: 50% 50%;
-	transform: translate(-100%, 0%) scale(1);
+	transform: translate(-100%, 0%);
 }
 
 #l3.open {
 	transform-origin: 50% 65%;
-	transform: translate(0%, -15%) rotate(-45deg) scale(1);
+	transform: translate(0%, -15%) rotate(-45deg);
 }
 
-
 #logo{ 
-    float: left; 
-    padding: none; 
-    margin: none; 
-    width: 100%; 
+	height: 105px;
+   	left: 0;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	transform: translate(0%, -50%);
 } 
   
 #logo img{ 
-    /* width: 22%; */
-    width: 422px;
+	height: 40%;
     float: left; 
     padding: 27px 30px; 
 }
@@ -75,32 +69,6 @@ body {
 h1 {
 	 margin-top: 10%;
 }
-
-@media only screen and (max-device-width: 480px) {
-	#logo{ 
-	    float: left; 
-	    padding: none; 
-	    margin: none; 
-	    width: 100%; 
-	} 
-
-	#logo img{ 
-	    width: 70%; 
-	    float: left; 
-	    padding: 55px 50px; 
-	}     
-
-	h1 {
-		margin-top: 25%;
-	}
-
-        #header {
-                height: 10%;
-        }
-
-}
-
-
 .seasons {
     font-family: 'Metal Mania';
     text-align: center;
