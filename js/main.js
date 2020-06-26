@@ -12,6 +12,8 @@ var a = 35 + 30*closedOrOpen;
 var b = 35 + 15*closedOrOpen;
 var c = 65 - 15*closedOrOpen;
 var d = 65 - 30*closedOrOpen;
-var ddButton = `<line x1='35%' y1='35%' x2='65%' y2='${a}%' style='stroke-width:5;stroke:rgb(255,255,255);'/><line x1='${b}%' y1='50%' x2='${c}%' y2='50%' style='stroke-width:5;stroke:rgb(255,255,255);'/><line x1='35%' y1='65%' x2='65%' y2=' ${d}%' style='stroke-width:5;stroke:rgb(255,255,255);'/>`
-document.getElementById('dd').innerHTML = ddButton
+document.getElementById('l1').setAttribute('y2', a);
+document.getElementById('l2').setAttribute('x1', b);
+document.getElementById('l2').setAttribute('x2', c);
+document.getElementById('l3').setAttribute('y2', d);
 };
