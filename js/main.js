@@ -1,5 +1,6 @@
 /* - set up - */
 var sz = screen.height*0.07;
+var closedOrOpenImm = 0;
 var closedOrOpen = 0;
 document.getElementById("dd").setAttribute("width", sz); 
 document.getElementById("dd").setAttribute("height", sz); 
@@ -25,7 +26,13 @@ document.getElementById('l3').setAttribute('y2', d);
 
 /* - toggle open/closed - */
 function switchDropDown() {
-closedOrOpen = 1 - closedOrOpen;
+closedOrOpenImm = 1 - closedOrOpen;
 console.log(closedOrOpen);
 drawDropDown();
+while (closedOrOpen > closedOrOpenImm) {
+closedOrOpen = closedOrOpen - 0.1;
+}
+while (closedOrOpen < closedOrOpenImm) {
+closedOrOpen = closedOrOpen + 0.1;
+}
 };
