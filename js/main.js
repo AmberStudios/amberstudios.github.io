@@ -26,7 +26,7 @@ document.getElementById('l3').setAttribute('y2', d);
 
 /* - toggle open/closed - */
 function switchDropDown() {
-closedOrOpenImm = 1 - closedOrOpen;
+closedOrOpenImm = 1 - closedOrOpenImm;
 console.log(closedOrOpen);
 drawDropDown();
 };
@@ -35,9 +35,9 @@ drawDropDown();
 function smooth() {
 while (closedOrOpen > closedOrOpenImm) {
 closedOrOpen += -0.1;
-}
+};
 while (closedOrOpen < closedOrOpenImm) {
 closedOrOpen +=0.1;
-}
+};
 };
 setInterval(smooth(), 0.1s);
