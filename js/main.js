@@ -1,10 +1,10 @@
 /* - set up - */
 var sz = screen.height*0.07;
+var closedOrOpen = 0;
 document.getElementById("dd").setAttribute("width", sz); 
 document.getElementById("dd").setAttribute("height", sz); 
-console.log(sz);
-var closedOrOpen = 0;
 document.getElementById("headerLogo").style.height = sz * 0.7;
+console.log(sz);
 
 /* - dropdown button function - */
 function drawDropDown() {
@@ -22,7 +22,6 @@ document.getElementById('l2').setAttribute('x1', b);
 document.getElementById('l2').setAttribute('x2', c);
 document.getElementById('l3').setAttribute('y2', d);
 };
-drawDropDown();
 
 /* - toggle open/closed - */
 function switchDropDown() {
