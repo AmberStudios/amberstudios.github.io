@@ -37,6 +37,7 @@ body {
   
 #logo img{ 
     /* width: 22%; */
+    width: 422px;
     float: left; 
     padding: 27px 30px; 
 }
