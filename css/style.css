@@ -35,7 +35,7 @@ body {
   stroke-width: 5px;
   height: 100px;
   width: 100px;
-  transition: all 1s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 #l1.open {
