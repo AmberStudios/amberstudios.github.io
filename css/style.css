@@ -63,9 +63,6 @@ body {
 
 #dropdownTab.open {
 	transform: translateX(-90%);
-	border-style: none none none solid;
-    border-color: #FFBA31;
-    border-width: 6px;
 }
 
 #dd {
