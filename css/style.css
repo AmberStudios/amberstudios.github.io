@@ -100,8 +100,11 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   filter: opacity(0.25);
-  box-shadow: 0 2px 2px black;
   z-index: 0;
+}
+
+.main svg {
+  box-shadow: 0 2px 2px black;
 }
 
 #arrow {
