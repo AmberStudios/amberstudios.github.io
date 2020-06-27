@@ -103,7 +103,11 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   filter: opacity(0.25);
-  z-index: 0;
+  z-index: -10;
+}
+
+.main path {
+box-shadow: 0 2px 2px black;
 }
 
 #arrow {
