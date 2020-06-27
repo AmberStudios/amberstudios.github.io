@@ -106,10 +106,6 @@ h1 {
   z-index: 0;
 }
 
-.main svg {
-  box-shadow: 0 2px 2px black;
-}
-
 #arrow {
 	fill: url(#mainGradient);
 	stroke: url(#mainGradient);
