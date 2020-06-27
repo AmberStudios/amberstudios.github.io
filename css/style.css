@@ -45,7 +45,7 @@ body {
 #dropdownTab {
 	width: 30%;
 	height: 90%;
-	background-color: #0c0b25;
+	background-color: #white;
 	position: fixed;
 	bottom: 0;
 	right: -30%;
@@ -57,7 +57,7 @@ body {
 #dropdownTab a {
 	font-family: "Roboto Condensed";
 	text-align: center;
-	color: white;
+	color: #0C0B25;
 	line-height: 2;
 }
 
