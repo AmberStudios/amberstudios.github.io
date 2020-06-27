@@ -18,7 +18,7 @@ body {
 		position: fixed;
 		left: 0;
 		top: 0;
-                border-style: none none none solid
+                border-style: none none solid none
                 border-color: #FFBA31;
                 border-width: 6px;
 		box-shadow: 0 2px 2px black;
