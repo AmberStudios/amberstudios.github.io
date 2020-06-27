@@ -21,7 +21,7 @@ body {
                 border-style: none none solid none;
                 border-color: #FFBA31;
                 border-width: 6px;
-		box-shadow: 0 2px 2px black;
+		box-shadow: 0 2px 2px #AAAAAA;
 }
 
 #dd {
