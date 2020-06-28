@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
 
     <title>Amber Studios</title>
 
-    <link rel="icon" type="image/png" href="/Icon.png"/>
+    <link rel="icon" type="image/png" href="img/Icon.png"/>
     <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
+
+<body>
+
     <div id="header"> 
-		<div id=overlay onclick='if (closedOrOpen==1) {switchDropDown()}'></div>
-        <div id="logo"> 
-            <a href="https://amberstudios.github.io/">
-		<img src="https://cdn.discordapp.com/attachments/715302112157761586/725801721967804487/g909.png" id="headerLogo">
-		</a>
-        </div>  
-	<!-- nav thingies here -->
+
+        <div id=overlay onclick='if (closedOrOpen==1) {switchDropDown()}'>
+        </div>
+
+        <a id="logo" href="https://amberstudios.github.io/"><img src="img/Logo.png" alt="Amber Studios Logo"></a>
+
+
         <div>
-		<svg id="dd" onclick='switchDropDown();'> 
-			<line id='l1' x1='30%' y1='35%' x2='70%' y2='35%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
-			<line id='l2' x1='30%' y1='50%' x2='70%' y2='50%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
-			<line id='l3' x1='30%' y1='65%' x2='70%' y2='65%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
-		</svg>
-	</div>
-	<div id="dropdownTab">
-		<a href=''>Home</a><br/><a href='#'>About</a><br/><a href='gamesPage.html'>Games</a><br/><a href='#'>Contact</a><br/><a href="#">Join Us</a>
-	</div>
+            <svg id="dd" onclick='switchDropDown();'> 
+                <line id='l1' x1='30%' y1='35%' x2='70%' y2='35%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
+                <line id='l2' x1='30%' y1='50%' x2='70%' y2='50%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
+                <line id='l3' x1='30%' y1='65%' x2='70%' y2='65%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
+            </svg>
+        </div>
+
+        <div id="dropdownTab">
+            <a href=''><img width="10%" height="10%" align="center" src="img/home.svg"> Home</a><br/>
+            <a href='#'>About</a><br/>
+            <a href='#'>Games</a><br/>
+            <a href='#'>Contact</a><br/>
+            <a href="#">Join Us</a>
+        </div>
+
     </div>
-    <div class="main" >
+
+    <!-- End top Bar-->
+
+    <!--<div class="main">
 		<div>
 			<svg
 				width="250"
@@ -69,9 +81,17 @@
 				</g>
 			</svg>
 		</div>
-	</div>
-	<!--<a href="gamesPage.html" id="gamesPage">GAMES PAGE (temporarily placed here)</a>-->
-	<script src="js/main.js"></script>
+    </div>
+    
+    <div class="heading"> </div>
+    <h1> Games </h1>
+    <div class='seasons'>
+        A Tale of Seasons<br/>—
+        <p>Overpowered by the nefarious Dankme, King Ekmand has scattered the powerful elemental gems throughout the kingdom, causing ever-growing instability of the seasons. Save the kingdom by reuniting the gems and overthrowing the ruthless dictator!</p>
+    </div> -->
+
+    <script src="js/main.js"></script>
+    
 </body>
 
 
