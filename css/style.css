@@ -4,6 +4,7 @@
 body {
 	font-family: 'Roboto Condensed';
 	font-size: 35px;
+	overflow-x: hidden;
 }
 
 #overlay {
@@ -22,9 +23,12 @@ body {
 	opacity: 0.3;
 }
 
-iframe {
-	margin: 0;
-	padding: 0;
+#headerFrame {
+	element {
+	top: -8px;
+	left: -8px;
+	position: relative;
+	height: 100vh;
 }
 
 #header {
