@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+html {
+	width: 100vw;
+}
+
 body {
 	font-family: 'Roboto Condensed';
 	font-size: 35px;
