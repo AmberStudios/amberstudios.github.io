@@ -22,6 +22,11 @@ body {
 	opacity: 0.3;
 }
 
+iframe {
+	margin: 0;
+	padding: 0;
+}
+
 #header {
 	background-color: #0C0B25;
 	width: 100%;
