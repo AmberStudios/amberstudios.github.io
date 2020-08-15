@@ -38,7 +38,7 @@ body {
 #header {
 	background-color: #0C0B25;
 	width: 100%;
-    height: 100px;
+    height: 10%;
     left: 0;
     top: 0;
 	position: fixed;
@@ -54,12 +54,12 @@ body {
     text-align: left;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 5%;
     padding: 25px 25px;
 }
 
 #logo img{
-	height: 50%;
+	height: 100%;
 }
 
 #dropdownTab {
