@@ -8,8 +8,8 @@ var xmlHTTP = new XMLHttpRequest();
 xmlHTTP.open("GET", url, false);
 xmlHTTP.send();
 
-//navblock.innerHTML = xmlHTTP.responseText;
-navblock.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.';
+//navBlock.innerHTML = xmlHTTP.responseText;
+navBlock.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.';
 
 containBlock = document.getElementById( "navcontainer" )
 
