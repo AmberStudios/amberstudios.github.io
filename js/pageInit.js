@@ -14,4 +14,4 @@ navBlock.innerHTML = 'This demo DIV block was inserted into the page using JavaS
 
 containBlock = document.getElementById( "navcontainer" )
 
-containblock.appendChild(navBlock)
+containBlock.appendChild(navBlock)
