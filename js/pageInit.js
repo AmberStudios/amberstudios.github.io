@@ -3,7 +3,7 @@
 
 var navBlock = document.createElement( 'div' );
 
-var url = window.location.hostname,"/legacyHeader.html";
+var url = "../legacyHeader.html";
 var xmlHTTP = new XMLHttpRequest();
 
 xmlHTTP.open("GET", url, false);
