@@ -14,7 +14,7 @@ xmlHTTP.send();
 
 var navBlock = xmlHTTP.responseText
 
-var div = document.getElementsByName( 'body' )
+var div = document.getElementById( 'navcontainer' )
 
 print(div)
 
