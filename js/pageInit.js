@@ -12,6 +12,8 @@ xmlHTTP.send();
 //navBlock.innerHTML = xmlHTTP.responseText;
 //navBlock.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.';
 
+var navBlock = xmlHTTP.responseText
+
 containBlock = document.getElementById( "navcontainer" )
 
-containBlock.appendChild(xmlHTTP.responseText)
+containBlock.appendChild(navBlock)
