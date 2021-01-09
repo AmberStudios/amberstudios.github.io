@@ -1,8 +1,9 @@
 //A simple script that loads things that are universal on all pages.
 
+
 var navBlock = document.createElement( 'div' );
 
-var url = "http://amberstudios.github.io/legacyHeader.html";
+var url = window.location.hostname,"/legacyHeader.html";
 var xmlHTTP = new XMLHttpRequest();
 
 xmlHTTP.open("GET", url, false);
