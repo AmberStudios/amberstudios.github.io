@@ -14,7 +14,7 @@ xmlHTTP.send();
 
 var navBlock = xmlHTTP.responseText
 
-var div = document.getElementByName( 'head' )
+var div = document.getElementByName( 'body' )
 
 div.insertAdjacentHTML( 'afterbegin', navblock );
 
