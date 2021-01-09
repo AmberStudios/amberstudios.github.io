@@ -6,13 +6,15 @@
 var url = "../legacyHeader.html";
 var xmlHTTP = new XMLHttpRequest();
 
-xmlHTTP.open("GET", url, false);
+xmlHTTP.open( 'GET', url, false );
 xmlHTTP.send();
 
 //navBlock.innerHTML = xmlHTTP.responseText;
 //navBlock.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.';
 
 var navBlock = xmlHTTP.responseText
+
+var div = documant.getElementByName( 'head' )
 
 div.insertAdjacentHTML( 'afterbegin', navblock );
 
