@@ -3,7 +3,7 @@
 
 //var navBlock = document.createElement( 'navigation' );
 
-var url = "../legacyHeader.html";
+var url = "../navBar.html";
 var xmlHTTP = new XMLHttpRequest();
 
 xmlHTTP.open( 'GET', url, false );
