@@ -16,8 +16,6 @@ var navBlock = xmlHTTP.responseText
 
 var div = document.getElementById( 'navcontainer' )
 
-print(div)
-
 div.insertAdjacentHTML( 'afterbegin', navBlock );
 
 //containBlock = document.getElementById( "navcontainer" )
