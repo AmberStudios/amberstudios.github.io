@@ -125,12 +125,12 @@ h1 {
     color: #f49f0a;
     margin-top: 20px;
     line-height: 0.75;
-    background-color: #eef0f2;
+    background-color: rgba(200, 207, 213, 0.5);
     padding: 10px;
     border-radius: 5px;
     border: solid;
     border-color: #c9d1d6;
-    box-shadow: 0 2px #f49f0a;
+    box-shadow: 0 2px rgba(245, 159, 10, 0.5);
     width: 80%;
     margin: auto;
 }
