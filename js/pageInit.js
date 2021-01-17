@@ -22,6 +22,6 @@ xmlHTTP.send();
 
 var bg = xmlHTTP.responseText
 
-var div = document.getElementById( 'main' )
+var div = document.getElementById( 'WMbackground' )
 
 div.insertAdjacentHTML( 'afterbegin', bg );
