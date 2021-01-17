@@ -1,16 +1,11 @@
 //A simple script that loads things that are universal on all pages.
 
-
-//var navBlock = document.createElement( 'navigation' );
-
+//load navBar
 var url = "../navBar.html";
 var xmlHTTP = new XMLHttpRequest();
 
 xmlHTTP.open( 'GET', url, false );
 xmlHTTP.send();
-
-//navBlock.innerHTML = xmlHTTP.responseText;
-//navBlock.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.';
 
 var navBlock = xmlHTTP.responseText
 
@@ -18,6 +13,15 @@ var div = document.getElementById( 'navcontainer' )
 
 div.insertAdjacentHTML( 'afterbegin', navBlock );
 
-//containBlock = document.getElementById( "navcontainer" )
+//insert background
+var url = "../img/watermarkBG.svg";
+var xmlHTTP = new XMLHttpRequest();
 
-//containBlock.appendChild(navBlock)
+xmlHTTP.open( 'GET', url, false );
+xmlHTTP.send();
+
+var bg = xmlHTTP.responseText
+
+var div = document.getElementById( 'main' )
+
+div.insertAdjacentHTML( 'afterbegin', bg );
