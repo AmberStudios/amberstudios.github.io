@@ -134,6 +134,15 @@ h1 {
     width: 80%;
     margin: auto;
 }
+
+.seasons a {
+    font-family: 'Metal Mania';
+    text-align: center;
+    font-size: 35px;
+    color: #f49f0a;
+    margin-top: 20px;
+    line-height: 0.75;
+}
 .seasons p {
     font-family: 'Roboto Condensed';
     color: #2b2d42;
