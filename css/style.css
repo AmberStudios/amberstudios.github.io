@@ -18,6 +18,7 @@ body {
 	background-color: rgb(0,0,0);
 	position: fixed;
 	opacity: 0;
+	display: none;
 	bottom: -6px;
 	transition: all 0.7s ease-in-out;
 	z-index: 1;
@@ -26,6 +27,7 @@ body {
 
 #overlay.open {
 	opacity: 0.3;
+	display: block;
 }
 
 #headerFrame {
