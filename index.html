@@ -12,14 +12,37 @@
   <title>Amber Studios</title>
 
   <link rel="icon" href="img/Icon.png"/>
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
   <div id="navcontainer">
-    <script type="text/javascript" src="../js/navScript.js"></script>
+    <div id=overlay onclick='if (closedOrOpen==1) {switchDropDown()}'>
+    </div>
+
+    <a id="logo" href='https://amberstudios.github.io'> <img src="img/Logo.png" alt="Amber Studios Logo"> </a>
+
+    <div>
+        <svg id="dd" onclick='switchDropDown();'> 
+            <line id='l1' x1='30%' y1='35%' x2='70%' y2='35%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
+            <line id='l2' x1='30%' y1='50%' x2='70%' y2='50%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
+            <line id='l3' x1='30%' y1='65%' x2='70%' y2='65%' style='stroke-width:5;stroke:rgb(255,255,255);'/>
+        </svg>
+    </div>
+    
+    <div id="dropdownTab">
+        <a href='https://amberstudios.github.io/'><img width="35px" height="35px" align="center" src="img/home.png"> Home</a><br/>
+        <a href='#'><img width="35px" height="35px" align="center" src="img/about.png"> About</a><br/>
+        <a href='https://amberstudios.github.io/products.html'><img width="35px" height="35px" align="center" src="img/games.png"> Products</a><br/>
+        <a href='#'><img width="35px" height="35px" align="center" src="img/contact.png"> Contact</a><br/>
+        <a href="https://forms.gle/b98K13NN5UcaEoCr6"><img width="35px" height="35px" align="center" src="img/join.png"> Join Us</a>
+    </div>
   </div>
   
   <div class="heading">
@@ -31,7 +54,7 @@
 
   </div>
   
-  <script src="../js/pageInit.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
