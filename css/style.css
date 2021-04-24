@@ -119,6 +119,7 @@ body {
 h1 {
 	 margin-top: 10%;
 }
+
 .product {
     font-family: 'Metal Mania';
     text-align: center;
@@ -149,17 +150,6 @@ h1 {
     color: #2b2d42;
     font-size: 15px;
     line-height: 1.5;
-}
-
-.main {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  filter: opacity(0.6);
-  z-index: -10;
 }
 
 #arrow {
