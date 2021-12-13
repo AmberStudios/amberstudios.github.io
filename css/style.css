@@ -21,6 +21,11 @@ html, body {
     margin-left: 50px;
 }
 
+button {
+    background: none;
+    border: none;
+}
+
 #nav-right {
     margin-right: 20px;
     color: white;
@@ -28,8 +33,42 @@ html, body {
     display: flex;
 }
 
+#chevron1, #chevron2 {
+    font-size: 1rem;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
 #nav-button {
     padding: 5px 20px;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.2s ease-in-out;
+}
+
+#nav-button:hover {
+    color: #F08700;
+    cursor: pointer;
+}
+
+#dropdown1, #dropdown2 {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: #2B2D42;
+    width: 15%;
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#dd-item {
+    padding-bottom: 5px;
+    overflow: hidden;
 }
 
 #content-1 {

@@ -21,13 +21,32 @@
     <div id="navbar">
       <div id="logo"><img src="img/Logo.png"></div>
       <div id="nav-right">
-        <div id="nav-button">Games</div>
-        <div id="nav-button">Company</div>
+        <div>
+          <button onclick="dropdown(1)"><div id="nav-button">Games <i id="chevron1" class="fas fa-chevron-down"></i></div></button>
+          <div id="dropdown1">
+            <div id="dd-item">A Royal Trance</div>
+            <div id="dd-item">Cubey the Cube</div>
+            <div id="dd-item">Oh No, My Limbs!</div>
+            <div id="dd-item">Out of Fuel</div>
+            <div id="dd-item">Slimes and Sawblades</div>
+            <div id="dd-item">Tale of Seasons</div>
+          </div>
+        </div>
+        <div>
+          <button onclick="dropdown(2)"><div id="nav-button">Company <i id="chevron2" class="fas fa-chevron-down"></i></div></button>
+          <div id="dropdown2">
+            <div id="dd-item">Leadership</div>
+            <div id="dd-item">Careers</div>
+            <div id="dd-item">Mission</div>
+            <div id="dd-item">About</div>
+            <div id="dd-item">Partners</div>
+          </div>
+        </div>
         <div id="nav-button">Contact</div>
-        <div id="nav-button"><i class="fab fa-twitter"></i></div>
-        <div id="nav-button"><i class="fab fa-discord"></i></div>
-        <div id="nav-button"><i class="fab fa-instagram"></i></div>
-        <div id="nav-button"><i class="fab fa-youtube"></i></div>
+        <a href="https://twitter.com/Amber_Studios" target="_blank"><div id="nav-button"><i class="fab fa-twitter"></i></div></a>
+        <a href="https://discord.gg/XxSQpc7xDS" target="_blank"><div id="nav-button"><i class="fab fa-discord"></i></div></a>
+        <a href="https://www.instagram.com/amberstudiosdev" target="_blank"><div id="nav-button"><i class="fab fa-instagram"></i></div></a>
+        <a href="https://www.youtube.com/channel/UCmgpzSu4y81TH7MchGoj_0w" target="_blank"><div id="nav-button"><i class="fab fa-youtube"></i></div></a>
       </div>
     </div>
 
@@ -50,6 +69,8 @@
       More content down here I guess.
     </div>
   </div>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
